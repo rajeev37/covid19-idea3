@@ -9,12 +9,17 @@ body {
     font-family: "Montserrat", sans-serif;
     margin: 0;
 }
+.container {
+    max-width: 1366px !important;
+    padding-left: 0;
+    padding-right: 0;
+}
 
 a {
     text-decoration: none;
 }
 
-.container-shadow {
+.container-shadow-login-sign-up {
     position: absolute;
     width: 525px;
     height: 100vh;
@@ -23,7 +28,7 @@ a {
     box-shadow: 0px 30px 50px -20px #000;
 }
 
-.container {
+.container-login-sign-up {
     position: absolute;
     width: 525px;
     height: 100vh;
@@ -80,7 +85,12 @@ label {
     display: block;
     font-size: 14px;
 }
-
+input[type="radio"] {
+    width: 10%;
+    &:focus {
+        box-shadow: none;
+    }
+}
 input {
     width: 100%;
     color: #fff;
@@ -125,7 +135,7 @@ input:focus {
 input[type="checkbox"] {
     width: inherit;
     padding: 0;
-    margin: 20px 5px 30px 20px;
+    margin: 20px 5px 30px 0px;
 }
 
 input[type="checkbox"] + span {
@@ -186,13 +196,13 @@ input[type="checkbox"] + span {
 }
 
 @media (max-width: 524px) {
-    .container-shadow {
+    .container-shadow-login-sign-up {
         width: 400px;
         left: 50%;
         margin-left: -200px;
     }
 
-    .container {
+    .container-login-sign-up {
         width: 400px;
         left: 50%;
         margin-left: -200px;
@@ -208,13 +218,13 @@ input[type="checkbox"] + span {
 }
 
 @media (max-width: 399px) {
-    .container-shadow {
+    .container-shadow-login-sign-up {
         width: 100%;
         margin: 0px;
         left: inherit;
     }
 
-    .container {
+    .container-login-sign-up {
         width: 100%;
         margin: 0px;
         left: inherit;
