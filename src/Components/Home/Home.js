@@ -1,5 +1,4 @@
 import React from "react";
-import InnerHeader from "../InnerHeader/InnerHeader.js";
 
 import LeftSection from "../LeftSection/LeftSection.js";
 
@@ -11,8 +10,7 @@ import Col from "react-bootstrap/Col";
 class Home extends React.Component {
     render() {
         return (
-            <>
-                <InnerHeader/>
+            <>                
                 <main id="inner-content">
                     <LeftSection/>
                     <div className="mainSection">
