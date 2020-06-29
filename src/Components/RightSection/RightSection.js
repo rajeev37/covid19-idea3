@@ -6,7 +6,7 @@ class RightSection extends React.Component {
             <section className="r-content">
                 <h1>Home</h1>
                 <Chart
-                    width={'500px'}
+                    width={'350px'}
                     height={'300px'}
                     chartType="PieChart"
                     loader={<div>Loading Chart</div>}

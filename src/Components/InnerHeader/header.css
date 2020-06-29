@@ -1,0 +1,31 @@
+
+
+.navbar {
+    background: #8E2220;
+  color: #ffffff;
+}
+
+.headTopNav {
+    display: inline-block;
+}
+
+.headTopNav li {
+    float: left;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
