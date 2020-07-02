@@ -24,7 +24,7 @@ class RightSection extends React.Component {
                     }}
                     rootProps={{ 'data-testid': '1' }}
                 />
-                <aside class="col-xl-8 stretch-card grid-margin">
+                <aside class="col-xl-9 news-section">
                 <div class="card bg-dark text-white">
                   <div class="card-body">
                     <h2>Latest news</h2>

@@ -15,11 +15,11 @@ const Header = (props) => {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar/>
                     <Nav className="" navbar>
-                        <NavItem><NavLink>HOME</NavLink></NavItem>
+                        <NavItem><NavLink href="/">HOME</NavLink></NavItem>
                         <NavItem><NavLink>CONTACT US</NavLink></NavItem>
                         <NavItem><NavLink>ABOUT US</NavLink></NavItem>
-                        <NavItem><NavLink>Login</NavLink></NavItem>
-                        <NavItem><NavLink>Sign Up</NavLink></NavItem>
+                        <NavItem><NavLink href="/signin">Login</NavLink></NavItem>
+                        <NavItem><NavLink href="/signin">Sign Up</NavLink></NavItem>
                     </Nav>
 
                 </Collapse>
