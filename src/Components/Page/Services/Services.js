@@ -5,7 +5,7 @@ class Services extends React.Component {
         const name = this.props.match.params.name;
         return (
             <main id="inner-content">
-                <h1>Services Page--{name}</h1>
+                <h1>Services Details Page</h1>
             </main>
         )
     }

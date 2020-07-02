@@ -1,7 +1,7 @@
 
 
 .navbar {
-    background: #8E2220;
+    background: hsl(172, 94%, 40%);
   color: #ffffff;
 }
 
@@ -28,4 +28,9 @@
 .navbar-nav .nav-item .nav-link:hover {
     color: #ffffff;
     border-bottom: 2px solid #ffffff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
 }

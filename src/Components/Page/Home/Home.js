@@ -1,8 +1,8 @@
 import React from "react";
 
-import LeftSection from "../LeftSection/LeftSection.js";
+import LeftSection from "../../organisms/LeftSection/LeftSection.js";
 
-import RightSection from "../RightSection/RightSection.js";
+import RightSection from "../../organisms/RightSection/RightSection.js";
 import './Home.css'
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -16,7 +16,7 @@ class Home extends React.Component {
                     <div className="mainSection">
                         <Row xs="2">
                             <Col>
-                                <h1>IMG</h1>
+                                <img src="images/corona.jpg" alt="thumb" class="img-fluid img-lg"/>
                             </Col>
                             <Col>
                                 <RightSection/>

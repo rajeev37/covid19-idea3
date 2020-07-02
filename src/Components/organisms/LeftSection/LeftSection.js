@@ -9,13 +9,19 @@ class LeftSection extends React.Component {
                 <Nav vertical>
                     <button aria-label="Toggle navigation" type="button" className="leftBarIcon">Click!</button>
                     <NavItem>
-                        <NavLink href="/service/door-step">Door Step</NavLink>
+                        <NavLink href="/service/door-step">Door Step Service</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="#">Link</NavLink>
+                        <NavLink href="#">HelpLine Numbers</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="#">Another Link</NavLink>
+                        <NavLink href="#">Covid19 Test Labs</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink href="#">Covid19 Test Hospitals</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink href="#">Hospitals Providing Home Treatment</NavLink>
                     </NavItem>
                 </Nav>
             </section>

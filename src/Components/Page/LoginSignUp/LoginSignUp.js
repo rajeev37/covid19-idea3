@@ -1,8 +1,7 @@
 import React from "react";
 
-import Header from "../organisms/Header/Header.js";
-import Login from "../Login/Login";
-import SignUp from "../SignUp/SignUp.js";
+import Login from "../../organisms/Login/Login";
+import SignUp from "../../organisms/SignUp/SignUp.js";
 
 class LoginSignUp extends React.Component {
     constructor() {
